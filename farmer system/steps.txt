@@ -1,0 +1,9 @@
+# pip install flask
+# pip install Flask-SQLAlchemy
+# pip install mysqlclient
+
+# install mysql
+## create schema named farmers
+## run the farmers.sql query
+
+# profit?

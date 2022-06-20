@@ -7,7 +7,7 @@
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.2.29
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+/*SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; */
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `addagroproducts`
 --
 
-CREATE TABLE `addagroproducts` (
+CREATE TABLE IF NOT EXISTS `addagroproducts` (
   `username` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
   `pid` int(11) NOT NULL,
